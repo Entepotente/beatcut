@@ -7,34 +7,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#15112e;--ink:#f4f0ff;--mute:#b4abd6;--cyan:#3fe3e8;--line:#3a3270;color-scheme:dark}
-*{box-sizing:border-box;margin:0}
-body{background:var(--bg);color:var(--ink);font:400 1.05rem/1.7 Figtree,system-ui,sans-serif}
-a{color:var(--cyan)}
-:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
-.wrap{max-width:720px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
-nav{margin-bottom:2rem}
-h1,h2{font-family:Unbounded,Impact,sans-serif;line-height:1.15}
-h1{font-size:clamp(1.6rem,6vw,2.3rem);margin-bottom:.5rem}
-h2{font-size:1.15rem;margin:2rem 0 .6rem}
-p,li{color:var(--mute)}
-ul{padding-left:1.2rem;margin-top:.5rem}
-.date{font-size:.9rem}
-</style>
+<script src="theme.js"></script>
+<link rel="stylesheet" href="style.css">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1052385977026732" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="wrap">
-<nav><a href="index.html">← Volver a Beatcut</a></nav>
+<nav class="top" aria-label="Principal"><a href="index.html">Inicio</a><a href="herramientas.html">Herramientas</a><a href="noticias.html">Actualidad</a><a href="tops.html">Tops</a><a href="guias.html">Guías</a><a href="publicidad.html">Anúnciate</a><a href="cuenta.html">Cuenta</a><button class="theme-toggle" id="themeBtn" type="button">Oscuro</button></nav>
 <h1>Política de privacidad</h1>
 <p class="date">Última actualización: octubre de 2026</p>
 
 <h2>Quién es el responsable</h2>
-<p>Beatcut es una web informativa sobre edición de vídeo para DJs. Puedes contactar con el responsable en <a href="mailto:cutbeatcut@gmail.com">cutbeatcut@gmail.com</a>.</p>
+<p>Beatcut es un portal informativo y de herramientas para DJs, productores y amantes de la música. Puedes contactar con el responsable en <a href="mailto:cutbeatcut@gmail.com">cutbeatcut@gmail.com</a>.</p>
 
 <h2>Qué datos recogemos</h2>
-<p>Beatcut no tiene registro de usuarios, formularios ni comentarios, y no recogemos datos personales directamente. Solo recibimos los datos que nos envíes por correo si nos escribes, y los usamos únicamente para responderte.</p>
+<p>Si creas una cuenta, guardamos tu correo electrónico, tu nombre (si lo indicas) y un identificador de usuario. Si accedes con Google, Facebook o Apple, recibimos de ese proveedor tu nombre y correo. Las contraseñas se almacenan cifradas y no podemos verlas. Además, recibimos los datos que nos envíes por correo si nos escribes, y los usamos únicamente para responderte.</p>
+
+<h2>Cuentas de usuario</h2>
+<p>El registro y el inicio de sesión los gestiona Google Firebase Authentication, que actúa como proveedor de servicios y puede tratar datos fuera del Espacio Económico Europeo con las garantías que ofrece. Usamos tus datos únicamente para crear y mantener tu cuenta. Puedes pedir que la eliminemos en cualquier momento escribiendo al correo de contacto.</p>
 
 <h2>Cookies y publicidad</h2>
 <p>Esta web muestra anuncios de Google AdSense. Google y sus socios publicitarios pueden usar cookies y tecnologías similares para mostrar anuncios basados en tus visitas a esta y otras webs.</p>
@@ -46,6 +36,9 @@ ul{padding-left:1.2rem;margin-top:.5rem}
 <p>En el Espacio Económico Europeo, solo se mostrarán anuncios personalizados si das tu consentimiento en el aviso de cookies.</p>
 
 <p>Puedes cambiar o retirar tu consentimiento en cualquier momento con el enlace «<a href="#" onclick="try{googlefc.callbackQueue.push(googlefc.showRevocationMessage)}catch(e){}return false">Privacy and cookie settings</a>» del pie de las demás páginas. El aviso de consentimiento no aparece en esta página para facilitar su lectura.</p>
+
+<h2>Herramientas de audio</h2>
+<p>Los archivos que analizas o conviertes se procesan en tu navegador y no se envían a nuestros servidores. Si eliges MP3, se descarga el codificador lamejs desde jsDelivr, un proveedor externo que puede registrar tu dirección IP.</p>
 
 <h2>Tus derechos</h2>
 <p>Según el RGPD puedes solicitar acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos escribiendo al correo de contacto. También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>

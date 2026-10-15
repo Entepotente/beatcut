@@ -37,6 +37,6 @@ window.addEventListener("error",function(e){show(e.message||"error de script")})
 window.addEventListener("unhandledrejection",function(e){show((e.reason&&(e.reason.code||e.reason.message))||"promesa rechazada")});
 window.__authLoadError=function(){show("no se pudo cargar auth.js o Firebase (red, ruta o bloqueador)")}})();
 </script>
-<script type="module" src="auth.js?v=2" onerror="__authLoadError()"></script>
+<script type="module" src="auth.js?v=3" onerror="__authLoadError()"></script>
 <footer><p>© Beatcut · <a href="privacidad.html">Privacidad</a> · <a href="#" onclick="try{googlefc.callbackQueue.push(googlefc.showRevocationMessage)}catch(e){}return false">Privacy and cookie settings</a> · <a href="contacto.html">Contacto</a></p></footer></div>
 </body></html>
